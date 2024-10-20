@@ -11,4 +11,4 @@ data['Volatility'] = data['Daily_Return'].rolling(window=30).std() * (252**0.5) 
 
 
 #data.to_csv('AAPL_data.csv')
-data.to_csv('Test_AAPL_data.csv')
+data.to_csv('Evaluation_AAPL_data.csv')

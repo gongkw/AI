@@ -2,8 +2,8 @@ import csv
 import json
 
 # Define input and output file paths
-csv_file_path = 'Test_AAPL_data.csv'  # Your CSV file path
-jsonl_file_path = 'Test_data.jsonl'  # Output JSONL file
+csv_file_path = 'Evaluation_AAPL_data.csv'  # Your CSV file path
+jsonl_file_path = 'Evaluation_AAPL_data.jsonl'  # Output JSONL file
 
 # Open CSV and JSONL files
 with open(csv_file_path, 'r') as csv_file, open(jsonl_file_path, 'w') as jsonl_file:
